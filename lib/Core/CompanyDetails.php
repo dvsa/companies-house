@@ -75,7 +75,7 @@ class CompanyDetails implements CHRequest
     {
         $companyNumber = trim($companyNumber);
 
-        $pattern = '/^[A-Z0-9]{8}$/';
+        $pattern = '/^[A-Z0-9]{1,8}$/';
 
         if (!preg_match($pattern, $companyNumber)) {
             throw new RestResponseException(
