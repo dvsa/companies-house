@@ -1,6 +1,15 @@
 {
     "name": "olcs/companies-house",
     "description": "Companies house library",
+    "repositories": [
+        {
+            "packagist": false
+        },
+        {
+            "url": "http://devrepo.shd.ci.nonprod.dvsa.aws",
+            "type": "composer"
+        }
+    ],
     "type": "library",
     "require": {
         "php": ">=5.3.3"
