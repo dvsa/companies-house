@@ -18,5 +18,8 @@
         "psr-4": {
             "CompaniesHouse\\": "lib/"
         }
+    },
+    "config": {
+        "secure-http": false
     }
 }
